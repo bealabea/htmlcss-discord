@@ -33,6 +33,10 @@ body {
     float: left;
 }
 
+.fr {
+    float: right;
+}
+
 button {
     padding: 12px 20px;
     border: none;
@@ -47,11 +51,20 @@ button {
     margin: 0 10px 0 10px;
 }
 
+.img-left {
+    padding-right: 100px;
+}
+
+.img-right {
+    padding-left: 100px;
+}
+
 /* ----------------------- */
 
 /* topbar */
 nav ul {
     list-style: none;
+    line-height: 50px;
 }
 
 nav ul li {
@@ -112,4 +125,33 @@ nav a:hover {
 .dark-button {
     background-color: #333;
     color: #fff;
+}
+
+/* parte principale */
+.main-row {
+    padding: 100px 0;
+}
+
+.main-img {
+    width: 70%;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main-text {
+    width: 30%;
+    margin-top: 30px; 
+}
+
+.main-title {
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.main-p {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 30px;
 }
