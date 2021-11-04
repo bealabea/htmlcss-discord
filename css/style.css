@@ -58,6 +58,17 @@ button {
     padding-left: 100px;
 }
 
+footer {
+    background-color: #333;
+}
+
+.colored-title {
+    color: rgb(107, 109, 255);
+}
+
+.white-text {
+    color: #fff;
+}
 /* ----------------------- */
 
 /* topbar */
@@ -71,9 +82,12 @@ nav ul li {
 }
 
 nav a {
+    padding: 0 20px 0 20px;
+}
+
+a {
     color: #fff;
     text-decoration: none;
-    padding: 0 20px 0 20px;
     text-align: center;
 }
 
@@ -176,11 +190,55 @@ nav a:hover {
 }
 
 .p-big {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
 }
 
 .colored-button {
     background-color: rgb(107, 109, 255);
     color: #fff;
+}
+
+/* footer */
+
+.footer-row {
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 100px 50px 200px;
+}
+
+.footer-title {
+    height: 50px;
+    line-height: 50px;;
+}
+
+.first-footer-col {
+    width: 30%;
+}
+
+.footer-col {
+    margin-top: 10px;
+    width: 15%;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+.language {
+    margin: 20px 0;
+    height: 20px;
+}
+
+.language img {
+    height: 100%;
+}
+
+.icon {
+    height: 50px;
+}
+
+.icon img {
+    height: 100%;
 }
