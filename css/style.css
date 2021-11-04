@@ -33,6 +33,20 @@ body {
     float: left;
 }
 
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.jumbo-button {
+    font-size: 22px;
+    margin: 0 10px 0 10px;
+}
+
 /* ----------------------- */
 
 /* topbar */
@@ -49,6 +63,11 @@ nav a {
     text-decoration: none;
     padding: 0 20px 0 20px;
     text-align: center;
+}
+
+nav a:hover {
+    color: #333;
+    font-weight: 900;
 }
 
 .col-logo {
@@ -70,13 +89,27 @@ nav a {
     text-align: right;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 50px;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+/* contenuto header */
+.jumbo-content {
+    width: 63%;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
 }
 
-/* contenuto header */
+.jumbo-title {
+    font-size: 30px;
+}
 
+.jumbo-text {
+    margin: 40px 0 25px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.dark-button {
+    background-color: #333;
+    color: #fff;
+}
