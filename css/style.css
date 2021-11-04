@@ -18,10 +18,9 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
-    position: relative;
 }
 
-.row {
+.row::after {
     width: 100%;
     content: "";
     display: table;
@@ -154,4 +153,10 @@ nav a:hover {
     margin-top: 30px;
     font-size: 20px;
     line-height: 30px;
+}
+
+.background-row {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/wave.svg);
 }
