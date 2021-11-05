@@ -45,9 +45,18 @@ button {
     cursor: pointer;
 }
 
+button:active {
+    font-size: small;
+}
+
 .big-button {
     font-size: 22px;
     margin: 0 10px 0 10px;
+}
+
+.colored-button {
+    background-color: #89A2E6;
+    color: #fff;
 }
 
 .img-left {
@@ -59,16 +68,17 @@ button {
 }
 
 footer {
-    background-color: #333;
+    background-color: #22272A;
 }
 
 .colored-title {
-    color: rgb(107, 109, 255);
+    color: #89A2E6;
 }
 
-.white-text {
+.colored-text {
     color: #fff;
 }
+
 /* ----------------------- */
 
 /* topbar */
@@ -91,8 +101,8 @@ a {
     text-align: center;
 }
 
-nav a:hover {
-    color: #333;
+a:hover {
+    color: #ccc;
     font-weight: 900;
 }
 
@@ -136,7 +146,7 @@ nav a:hover {
 }
 
 .dark-button {
-    background-color: #333;
+    background-color: #22272A;
     color: #fff;
 }
 
@@ -155,12 +165,14 @@ nav a:hover {
 
 .main-text {
     width: 30%;
-    margin-top: 30px; 
+    margin-top: 30px;
+    color: #22272A;
 }
 
 .main-title {
     font-size: 35px;
     line-height: 60px;
+    color: #22272A;
 }
 
 .main-p {
@@ -190,13 +202,12 @@ nav a:hover {
 }
 
 .p-big {
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
 }
 
-.colored-button {
-    background-color: rgb(107, 109, 255);
-    color: #fff;
+.center-row p:last-child {
+    color: #22272A;
 }
 
 /* footer */
@@ -204,12 +215,13 @@ nav a:hover {
 .footer-row {
     width: 90%;
     margin: 0 auto;
-    padding: 100px 100px 50px 200px;
+    padding: 100px 100px 100px 200px;
 }
 
 .footer-title {
     height: 50px;
-    line-height: 50px;;
+    line-height: 50px;
+    color: #89A2E6;
 }
 
 .first-footer-col {
@@ -241,4 +253,17 @@ footer ul {
 
 .icon img {
     height: 100%;
+}
+
+#languages {
+    border: none;
+    background-color: #22272A;
+    color: #fff;
+    font-size: 15px;
+}
+
+.endbar {
+    border-top: 2px solid rgb(107, 109, 255);
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
