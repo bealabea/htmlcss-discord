@@ -128,7 +128,7 @@ a:hover {
 /* contenuto header */
 .jumbo-content {
     width: 63%;
-    height: 350px;
+
     margin: 0 auto;
     text-align: center;
     margin-top: 100px;
@@ -184,6 +184,7 @@ a:hover {
 
 .wave {
     height: 95px;
+    width: 2500px;
 }
 
 .rotate-img {
